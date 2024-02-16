@@ -1,0 +1,21 @@
+{
+  "name": "translator-ts",
+  "version": "1.0.0",
+  "description": "Translator app example using json file and proxy",
+  "main": "app.ts",
+  "scripts": {
+    "dev": "ts-node app.ts"
+  },
+  "author": "Adan-Perez",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/semaphore": "^1.1.1",
+    "typescript": "^4.9.5"
+  },
+  "dependencies": {
+    "@types/node": "^18.14.0",
+    "axios": "^1.3.3",
+    "https-proxy-agent": "^5.0.1",
+    "semaphore": "^1.1.0"
+  }
+}
